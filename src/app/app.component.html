@@ -1,0 +1,7 @@
+<form [formGroup]="miForm" (ngSubmit)="onSubmit()">
+  Comentario: <input type="text" formControlName="comentario"><br>
+  Universidad: <input type="text" formControlName="universidad"><br>
+  Profesor: <input type="text" formControlName="profesor"><br>
+  <button>ClickMe</button>
+</form>
+<button (click)="getInfo()"> getInfo </button>
